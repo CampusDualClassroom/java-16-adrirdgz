@@ -9,8 +9,19 @@ public class Exercise16 {
 		plane.start();
 		tractor.start();
 
+		plane.stop();
+		tractor.stop();
+
+		plane.maintenance();
+		tractor.maintenance();
+
 		plane.fly();
 		tractor.forward();
+
+		plane.takeOff();
+
+		plane.land();
+		tractor.backward();
 
 	}
 
